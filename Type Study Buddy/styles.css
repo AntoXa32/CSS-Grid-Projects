@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 10px;
+    color: #333333;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body {
+
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 5px 0;
+}
+
+.container {
+    max-width: 1776px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.header-container {
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: 88px 1584px 88px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: black;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.title-unruly {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+    color: black;
+}
+
+.unruly-container {
+    display: grid;
+    gap: 32px;
+}
