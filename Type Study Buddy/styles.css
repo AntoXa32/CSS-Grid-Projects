@@ -13,8 +13,7 @@ html {
 }
 
 body {
-
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Fira Sans", Arial, sans-serif;
     background-color: #fff;
 }
 
@@ -24,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 5px 0;
+    margin: 0 0 8px 0;
 }
 
 .container {
@@ -63,4 +62,131 @@ h6 {
 .unruly-container {
     display: grid;
     gap: 32px;
+}
+
+.cute {
+    display: grid;
+    grid-template-columns: 576px 726px 426px;
+    gap: 24px;
+}
+
+.cute-cats {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.cute-cats-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: left;
+}
+
+.cute-cats-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #00000080;
+}
+
+.cute-cats-caption {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.cats-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: left;
+}
+
+.age {
+    display: grid;
+    grid-template-columns: 288px 288px 1176px;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.age-container {
+    display: grid;
+    gap: 24px;
+    border-right: 1px solid #00000040;
+    padding-right: 12px;
+}
+
+.age-wrap {
+    display: grid;
+    gap: 8px;
+}
+
+.age-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+}
+
+.age-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.bees-container {
+    display: grid;
+    gap: 24px;
+}
+
+.swarm-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.printer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 438px 288px 1026px);
+    gap: 12px;
+}
+
+.printer-section {
+    display: grid;
+    border-right: 1px solid;
+    padding-right: 12px;
+    gap: 24px;
+}
+
+.printer-span {
+    display: grid;
+    gap: 20px;
+}
+
+.weekly-container {
+    display: grid;
+    gap: 12px;
+
+}
+
+.weekly-section {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 276px 1fr);
+}
+
+.weekly-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.weekly-containers {
+    display: grid;
+    gap: 24px;
 }
