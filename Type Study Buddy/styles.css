@@ -40,6 +40,7 @@ h6 {
 }
 
 .title {
+    font-family: "Fira sans";
     font-weight: 400;
     font-size: 72px;
     line-height: 72px;
@@ -68,6 +69,7 @@ h6 {
     display: grid;
     grid-template-columns: 576px 726px 426px;
     gap: 24px;
+    margin-bottom: 32px;
 }
 
 .cute-cats {
@@ -110,6 +112,7 @@ h6 {
     grid-template-columns: 288px 288px 1176px;
     gap: 12px;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .age-container {
@@ -153,11 +156,12 @@ h6 {
     display: grid;
     grid-template-columns: repeat(3, 438px 288px 1026px);
     gap: 12px;
+    margin-top: 32px;
 }
 
 .printer-section {
     display: grid;
-    border-right: 1px solid;
+    border-right: 1px solid #00000040;
     padding-right: 12px;
     gap: 24px;
 }
@@ -169,8 +173,14 @@ h6 {
 
 .weekly-container {
     display: grid;
-    gap: 12px;
+    gap: 32px;
+    grid-template-columns: 1026px;
+}
 
+.weekly {
+    display: grid;
+    gap: 24px;
+    grid-template-rows: 56px 144px;
 }
 
 .weekly-section {
@@ -187,6 +197,248 @@ h6 {
 }
 
 .weekly-containers {
+    display: grid;
+    gap: 24px;
+}
+
+.sinoptic-container {
+    display: grid;
+    grid-template-columns: repeat(6, 121px);
+    grid-template-rows: repeat(6, 40px);
+    grid-template-areas:
+        "z m t w th f"
+        "one t1 t6 t11 t16 t21"
+        "two t2 t7 t12 t17 t22"
+        "three t3 t8 t13 t18 t23"
+        "four t4 t9 t14 t19 t24"
+        "five t5 t10 t15 t20 t25"
+    ;
+}
+
+.grid {
+    justify-content: start;
+    align-items: center;
+    display: grid;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.zero {
+    grid-area: z;
+    background-color: black;
+
+}
+
+.monday {
+    grid-area: m;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+
+}
+
+.tuesday {
+    grid-area: t;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.wednesday {
+    grid-area: w;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.thursday {
+    grid-area: th;
+    background-color: black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.friday {
+    grid-area: f;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.time-one {
+    grid-area: one;
+    background-color: #00000040;
+    border: 1px solid black;
+    padding-left: 12px;
+}
+
+.time-two {
+    grid-area: two;
+    background-color: #00000040;
+    border: 1px solid black;
+}
+
+.time-three {
+    grid-area: three;
+    background-color: #00000040;
+    border: 1px solid black;
+}
+
+.time-four {
+    grid-area: four;
+    background-color: #00000040;
+    border: 1px solid black;
+}
+
+.time-five {
+    grid-area: five;
+    background-color: #00000040;
+    border: 1px solid black;
+}
+
+.temp-1 {
+    grid-area: t1;
+    border: 1px solid black;
+}
+
+.temp-2 {
+    grid-area: t2;
+    border: 1px solid black;
+}
+
+.temp-3 {
+    grid-area: t3;
+    border: 1px solid black;
+}
+
+.temp-4 {
+    grid-area: t4;
+    border: 1px solid black;
+}
+
+.temp-5 {
+    grid-area: t5;
+    border: 1px solid black;
+}
+
+.temp-6 {
+    grid-area: t6;
+    border: 1px solid black;
+}
+
+.temp-7 {
+    grid-area: t7;
+    border: 1px solid black;
+}
+
+.temp-8 {
+    grid-area: t8;
+    border: 1px solid black;
+}
+
+.temp-9 {
+    grid-area: t9;
+    border: 1px solid black;
+}
+
+.temp-10 {
+    grid-area: t10;
+    border: 1px solid black;
+}
+
+.temp-11 {
+    grid-area: t11;
+    border: 1px solid black;
+}
+
+.temp-12 {
+    grid-area: t12;
+    border: 1px solid black;
+}
+
+.temp-13 {
+    grid-area: t13;
+    border: 1px solid black;
+}
+
+.temp-14 {
+    grid-area: t14;
+    border: 1px solid black;
+}
+
+.temp-15 {
+    grid-area: t15;
+    border: 1px solid black;
+}
+
+.temp-16 {
+    grid-area: t16;
+    border: 1px solid black;
+}
+
+.temp-17 {
+    grid-area: t17;
+    border: 1px solid black;
+}
+
+.temp-18 {
+    grid-area: t18;
+    border: 1px solid black;
+}
+
+.temp-19 {
+    grid-area: t19;
+    border: 1px solid black;
+}
+
+.temp-20 {
+    grid-area: t20;
+    border: 1px solid black;
+}
+
+.temp-21 {
+    grid-area: t21;
+    border: 1px solid black;
+}
+
+.temp-22 {
+    grid-area: t22;
+    border: 1px solid black;
+}
+
+.temp-23 {
+    grid-area: t23;
+    border: 1px solid black;
+}
+
+.temp-24 {
+    grid-area: t24;
+    border: 1px solid black;
+}
+
+.temp-25 {
+    grid-area: t25;
+    border: 1px solid black;
+}
+
+.good-container {
     display: grid;
     gap: 24px;
 }
